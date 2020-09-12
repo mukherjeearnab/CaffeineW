@@ -61,13 +61,13 @@ namespace IdlePrevention
             if (enabled)
             { 
                 // Turn off
-                menu.Text = "Enable Idle Prevention";
+                menu.Text = "Enable CaffeineW";
                 idleTimer.Stop();
             }
             else
             {
                 // Turn on
-                menu.Text = "Disable Idle Prevention";
+                menu.Text = "Disable CaffeineW";
                 idleTimer.Start();
             }
 
